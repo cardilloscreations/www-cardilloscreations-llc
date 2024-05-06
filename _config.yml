@@ -1,0 +1,152 @@
+#
+# Configuration File
+#
+
+# Enable additional diagnostics
+verbose: true
+profile: true
+
+# Information for compile
+exclude:
+  - "CNAME"
+  - "LICENSE"
+  - "README.md"
+  - "DEVELOPMENT.md"
+  - "ATTRIBUTIONS.md"
+  - "_posts/README.md"
+  - "*.js"
+  - "*.json"
+  - "assets/images/favicon/*.webmanifest"
+  - "assets/images/favicon/*.md"
+  - "assets/images/favicon/*.html"
+  - "assets/images/favicon/*.xml"
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+
+# Sass configuration
+sass:
+  sass_dir: _scss
+
+# Information for deploy
+baseurl: ""
+
+# the base hostname & protocol for your site
+url: "https://cardilloscreations.llc"
+
+assets_path:  assets
+css_path:     assets/css
+images_path:  assets/images
+
+##
+## HEADER INFORMATION
+##
+
+# This is the site title
+title: Cardillo's Creations, LLC
+# This is the site description - must be between 25 and 160 characters for Bing SEO
+description: >
+  Cardillo's Creations is a woman owned small business that pursues
+  online business opportunities and shares information on their podcast.
+
+# Website language
+lang: en-US
+# Header Title
+header-title: Cardillo's Creations, LLC
+# Header Tagline
+header-tagline: Lisa & Ray Cardillo's Creative Pursuits
+
+# The general contact default email address
+email: hello@cardilloscreations.llc
+
+##
+## Global Images
+##
+default-image: default.webp
+link-icon: icons/link.svg
+email-icon: icons/email.svg
+shop-icon: icons/shop.svg
+facebook-icon: icons/facebook.svg
+instagram-icon: icons/instagram.svg
+twitterx-icon: icons/twitterx.svg
+tiktok-icon: icons/tiktok.svg
+youtube-icon: icons/youtube.svg
+linkedin-icon: icons/linkedin.svg
+pinterest-icon: icons/pinterest.svg
+amazon-icon: icons/amazon.svg
+acast-icon: icons/acast.svg
+spotify-icon: icons/spotify.svg
+applepodcasts-icon: icons/applepodcasts.svg
+
+##
+## Portfolio Grid
+##
+portfolio:
+  # Portfolio Item
+  - title: <b>T</b>his <b>M</b>idlife <b>H</b>ustle
+    image: this-midlife-hustle.webp
+    url: "https://thismidlifehustle.com"
+    ext-name: "YouTube"
+    ext-icon: "youtube.svg"
+    ext-url: "https://www.youtube.com/@ThisMidlifeHustle"
+
+  # Portfolio Item
+  - title: <b>C</b>ire <b>A</b>rtistry
+    image: cire-artistry.webp
+    url: "https://cireartistry.com"
+    ext-name: "Etsy"
+    ext-icon: "shopping.svg"
+    ext-url: "https://www.etsy.com/shop/cireartistry"
+
+  # Portfolio Item
+  - title: <b>B</b>inaural <b>B</b>eat </b>B</b>ank
+    image: binaural-beat-bank.webp
+    url: "https://binauralbeatbank.com"
+    ext-name: "YouTube"
+    ext-icon: "youtube.svg"
+    ext-url: "https://www.youtube.com/@BinauralBeatBank"
+
+  # Portfolio Item
+  - title: <b>S</b>itcom <b>S</b>leepers
+    image: sitcom-sleepers.webp
+    url: "https://sitcomsleepers.com"
+    ext-name: "YouTube"
+    ext-icon: "youtube.svg"
+    ext-url: "https://www.youtube.com/@SitcomSleepers"
+
+  # Portfolio Item
+  - title: <b>L</b>ong <b>T</b>ooth <b>G</b>amer
+    image: long-tooth-gamer.webp
+    url: "https://longtoothgamer.com"
+    ext-name: "YouTube"
+    ext-icon: "youtube.svg"
+    ext-url: "https://www.youtube.com/@LongToothGamer"
+
+  # Portfolio Item
+  - title: <b>L</b>isa <b>L</b>affs
+    image: lisa-laffs.webp
+    url: "https://lisalaffs.com"
+    ext-name: "YouTube"
+    ext-icon: "youtube.svg"
+    ext-url: "https://www.youtube.com/@LisaLaffsLOL"
+
+  # Portfolio Item
+  - title: <b>C</b>ardillo's <b>A</b>rt
+    image: cardillos-art.webp
+    url: "https://cardillos.art"
+    ext-name: "YouTube"
+    ext-icon: "youtube.svg"
+    ext-url: "https://www.youtube.com/@Cardillos-Art"
+
+  # Portfolio Item
+  - title: <b>M</b>r <b>M</b>ighty's <b>F</b>ine <b>D</b>esigns
+    image: mmfd.webp
+    url: "https://mrmightysfinedesigns.com"
+
+##
+## Footer
+##
+footer-description: Find us on social media.
+footer-copyright-text: Cardillo's Creations, LLC
+footer-copyright-year: 2021
