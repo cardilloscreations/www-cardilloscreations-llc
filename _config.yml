@@ -97,7 +97,7 @@ portfolio:
     url: "https://cireartistry.com"
     ext-name: "Etsy"
     ext-icon: "shopping.svg"
-    ext-url: "https://www.etsy.com/shop/cireartistry"
+    ext-url: "https://www.etsy.com/shop/CireArtistry"
 
   # Portfolio Item
   - title: <b>B</b>inaural <b>B</b>eat </b>B</b>ank
@@ -140,9 +140,12 @@ portfolio:
     ext-url: "https://www.youtube.com/@Cardillos-Art"
 
   # Portfolio Item
-  - title: <b>M</b>r <b>M</b>ighty's <b>F</b>ine <b>D</b>esigns
-    image: mmfd.webp
-    url: "https://mrmightysfinedesigns.com"
+  - title: <b>C</b>ardillo's <b>C</b>reations <b>S</b>hop
+    image: cardillos-creations-shop.webp
+    url: "https://cardilloscreations.com"
+    ext-name: "Etsy Shop"
+    ext-icon: "shop.svg"
+    ext-url: "https://www.etsy.com/shop/CardillosCreations"
 
 ##
 ## Footer
